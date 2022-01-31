@@ -3,8 +3,8 @@ edition = "2018"
 name = "newsapi"
 version = "0.1.0"
 
-authors = ["sebbev"]
-description = "Clinews is a news aggregator for the command line"
+authors = ["Sebastian Vallin"]
+description = "A rust interface for NewsAPI from newsapi.org"
 license = "MIT"
 
 [dependencies]
