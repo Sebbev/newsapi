@@ -56,6 +56,10 @@ impl Article {
         &self.title
     }
 
+    pub fn description(&self) -> Option<&str> {
+        self.description.as_deref()
+    }
+
     pub fn author(&self) -> Option<&str> {
         self.author.as_deref()
     }
